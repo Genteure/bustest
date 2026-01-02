@@ -38,3 +38,10 @@ config BT_MAX_PAIRED
   default 7
 
 endif
+
+if SHIELD_SHIFTER_TEST_LEFT && BOARD_NICE_NANO_V2
+
+configdefault SPI
+    default y
+
+endif
