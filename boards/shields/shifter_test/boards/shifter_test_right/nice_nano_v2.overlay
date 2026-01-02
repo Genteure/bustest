@@ -86,7 +86,7 @@
 
 // devices on spi3
 
-// CS pins not defined for all devices on spi3, skipping CS pin configuration
+// CS pins not defined for at least one device on spi3, skipping CS pin configuration
 
 &spi3 {
     led_strip: ws2812@0 {

@@ -1,0 +1,6 @@
+if SHIELD_SHIFTER_TEST_LEFT
+
+config SPI
+    default y
+
+endif
